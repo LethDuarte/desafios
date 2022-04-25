@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+    background-color: white;
+}
+
+div#espaco {
+    height: 96vw;
+    background-image: url('imagens/espaco.jpg');
+}
+
+div#astronauta {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+}
+
