@@ -1,17 +1,21 @@
 @charset "UTF-8";
 
 body {
-    background-color: white;
+    background-color: rgb(221, 214, 214);
 }
 
 div#espaco {
+    position: relative;
     height: 96vw;
-    background-image: url('imagens/espaco.jpg');
+    background-image: url("imagens/espaco.jpg");
 }
 
 div#astronauta {
+    position: absolute;
+    left: 50%;
+    top: 50%;
     width: 200px;
     height: 200px;
-    background-color: lightgreen;
+    background-image: url('imagens/astronauta.png');
 }
 
