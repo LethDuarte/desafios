@@ -6,17 +6,27 @@ body {
 
 div#espaco {
     position: relative;
-    height: 96vw;
+    height: 96vh;
+    padding: 10px;
+
     background-image: url('../imagens/espaco.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 div#astronauta {
+    width: 400px;
+    height: 400px;
     position: absolute;
     left: 50%;
     top: 50%;
+    transform: translate(-50%, -50%);
+
     background-image: url('../imagens/astronauta.png');
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
 }
 
